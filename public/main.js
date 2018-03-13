@@ -4,20 +4,20 @@
 let playerOneSelection = "no selection";
 
 const playerOneSelectsRock = () => {
-  document.querySelector('#playerOneRock').style.backgroundColor = "blue";
+  document.querySelector('#playerOneRock').style.backgroundColor = "lightblue";
   console.log("rock")
   playerOneSelection = "rock";
   gameOver()
 }
 
 const playerOneSelectsPaper = () => {
-  document.querySelector('#playerOnePaper').style.backgroundColor = "blue";
+  document.querySelector('#playerOnePaper').style.backgroundColor = "lightblue";
   playerOneSelection = "paper";
   gameOver()
 }
 
 const playerOneSelectsScissors = () => {
-  document.querySelector('#playerOneScissors').style.backgroundColor = "blue";
+  document.querySelector('#playerOneScissors').style.backgroundColor = "lightblue";
   playerOneSelection = "scissors";
   gameOver()
 }
@@ -26,19 +26,19 @@ const playerOneSelectsScissors = () => {
 let playerTwoSelection = "no selection";
 
 const playerTwoSelectsRock = () => {
-  document.querySelector('#playerTwoRock').style.backgroundColor = "blue";
+  document.querySelector('#playerTwoRock').style.backgroundColor = "lightgreen";
   playerTwoSelection = "rock";
   gameOver()
 }
 
 const playerTwoSelectsPaper = () => {
-  document.querySelector('#playerTwoPaper').style.backgroundColor = "blue";
+  document.querySelector('#playerTwoPaper').style.backgroundColor = "lightgreen";
   playerTwoSelection = "paper";
   gameOver()
 }
 
 const playerTwoSelectsScissors = () => {
-  document.querySelector('#playerTwoScissors').style.backgroundColor = "blue";
+  document.querySelector('#playerTwoScissors').style.backgroundColor = "lightgreen";
   playerTwoSelection = "scissors";
   gameOver()
 }
